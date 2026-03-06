@@ -4,7 +4,7 @@ DailyWire is a modern, responsive news website built with HTML, CSS, and Vanilla
 
 ## Live Demo
 
-https://username.github.io/dailywire-news/
+https://erenb1lge.github.io/dailywire-news/
 
 ## Screenshots
 
@@ -71,20 +71,4 @@ python3 -m http.server 8000
 
 ```text
 http://localhost:8000/
-```
-
-## Deployment
-
-Deploy on GitHub Pages:
-
-1. Push this repository to GitHub.
-2. Open `Settings` -> `Pages`.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Choose your branch (for example, `main`) and root (`/root`).
-5. Save and wait for deployment.
-
-Your site will be available at:
-
-```text
-https://<username>.github.io/dailywire-news/
 ```
