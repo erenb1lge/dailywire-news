@@ -556,16 +556,17 @@ body.dark .skeleton {
     overflow: hidden;
     visibility: hidden;
     pointer-events: none;
-    transition: max-height 0.28s ease, opacity 0.24s ease, transform 0.24s ease;
+    transition: max-height 0.36s ease, opacity 0.34s ease, transform 0.34s ease, visibility 0s linear 0.36s;
   }
 
-  .main-nav.open {
-    max-height: 340px;
+  .main-nav.menu-open {
+    max-height: 380px;
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
     pointer-events: auto;
     padding: 0.8rem 4vw 1rem;
+    transition: max-height 0.36s ease, opacity 0.34s ease, transform 0.34s ease, visibility 0s linear 0s;
   }
 
   .main-nav a {

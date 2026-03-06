@@ -29,7 +29,7 @@ function setMobileMenuState(isOpen, options = {}) {
   const shouldOpen = isOpen && isMobileViewport();
 
   menuToggle.setAttribute('aria-expanded', String(shouldOpen));
-  mainNav.classList.toggle('open', shouldOpen);
+  mainNav.classList.toggle('menu-open', shouldOpen);
   mainNav.setAttribute('aria-hidden', String(!shouldOpen));
   document.body.classList.toggle('menu-open', shouldOpen);
 
@@ -93,7 +93,7 @@ function setupMenuToggle() {
 
   const syncForViewport = () => {
     if (isMobileViewport()) {
-      const isOpen = mainNav.classList.contains('open');
+      const isOpen = mainNav.classList.contains('menu-open');
       menuToggle.setAttribute('aria-expanded', String(isOpen));
       mainNav.setAttribute('aria-hidden', String(!isOpen));
       document.body.classList.toggle('menu-open', isOpen);
@@ -101,7 +101,7 @@ function setupMenuToggle() {
     }
 
     menuToggle.setAttribute('aria-expanded', 'false');
-    mainNav.classList.remove('open');
+    mainNav.classList.remove('menu-open');
     mainNav.setAttribute('aria-hidden', 'false');
     document.body.classList.remove('menu-open');
   };
@@ -136,7 +136,7 @@ function setupMenuToggle() {
   });
 
   mainNav.addEventListener('keydown', (event) => {
-    if (!isMobileViewport() || !mainNav.classList.contains('open')) {
+    if (!isMobileViewport() || !mainNav.classList.contains('menu-open')) {
       return;
     }
 
@@ -501,6 +501,7 @@ async function initArticlePage() {
 async function init() {
   document.body.classList.remove('menu-open');
   document.querySelectorAll('.main-nav').forEach((nav) => {
+    nav.classList.remove('menu-open');
     nav.classList.remove('open');
   });
   const menuToggle = document.getElementById('menuToggle');
