@@ -8,10 +8,13 @@ https://erenb1lge.github.io/dailywire-news/
 
 ## Screenshots
 
-![Homepage](screenshots/home.png)
-![Mobile View](screenshots/mobile.png)
-![Article Page](screenshots/article.png)
-![Dark Mode](screenshots/dark-mode.png)
+![Homepage](screenshots/homepage.png)
+
+![Article](screenshots/article.png)
+
+![Dark Mode](screenshots/darkmode.png)
+
+![Mobile](screenshots/mobile.png)
 
 ## Features
 
