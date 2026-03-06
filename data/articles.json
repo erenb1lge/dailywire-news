@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "title": "AI copilots are quietly reshaping how teams build products in 2026",
+    "category": "technology",
+    "description": "From design handoff to backend testing, new AI workflows are moving from experiments into daily operations.",
+    "image": "https://picsum.photos/1200/620?random=11",
+    "date": "March 6, 2026",
+    "author": "Lena Carter",
+    "content": [
+      "Product teams once treated AI tooling as a side experiment. In 2026, that posture has changed. Across startups and enterprise organizations, copilots are now embedded into planning documents, design systems, QA workflows, and release pipelines.",
+      "Engineering leaders say the biggest shift is not raw speed, but coordination. Designers generate interaction drafts faster, while developers use AI to surface edge cases before code review. The result is a tighter feedback loop and fewer surprises during launch week.",
+      "There are tradeoffs. Teams still report hallucinated implementation details, inconsistent code style suggestions, and occasional overconfidence in generated test coverage. To reduce risk, mature organizations combine automation with stricter review checklists and human ownership of final decisions.",
+      "Analysts expect the next wave of adoption to focus on domain-specific assistants tailored to legal, healthcare, and financial compliance. As model interfaces improve, the line between tool and teammate may continue to blur, but accountability remains firmly human."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chipmakers race to launch greener AI data centers",
+    "category": "technology",
+    "description": "New cooling and power systems promise lower emissions while meeting record model training demand.",
+    "image": "https://picsum.photos/600/400?random=21",
+    "date": "March 5, 2026",
+    "author": "Aria Nguyen",
+    "content": [
+      "Semiconductor firms are racing to redesign data center stacks around energy-efficient architectures. Their goal is to sustain AI growth while reducing operating costs and emissions.",
+      "Operators are combining liquid cooling, smarter workload scheduling, and modular power systems to maintain stable performance under heavy demand.",
+      "Analysts note that greener infrastructure is quickly becoming a procurement requirement, not just a branding message."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Global markets steady as inflation cools in major economies",
+    "category": "business",
+    "description": "Investors react to softer consumer-price readings and cautious central bank guidance.",
+    "image": "https://picsum.photos/600/400?random=22",
+    "date": "March 4, 2026",
+    "author": "Daniel Brooks",
+    "content": [
+      "Equity indexes ended mostly flat after fresh inflation reports suggested a gradual cooling trend across several major economies.",
+      "Portfolio managers say attention has shifted from emergency rate hikes to a slower normalization cycle.",
+      "Still, economists warn that services inflation remains sticky and could delay aggressive policy easing."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Arctic research mission finds rapid ocean temperature shifts",
+    "category": "science",
+    "description": "Scientists report faster-than-expected changes in currents affecting marine ecosystems.",
+    "image": "https://picsum.photos/600/400?random=23",
+    "date": "March 3, 2026",
+    "author": "Maya Petrov",
+    "content": [
+      "A multinational Arctic expedition has documented unexpected warming pockets in key ocean pathways.",
+      "Researchers say the trend may alter migration routes and breeding patterns for multiple marine species.",
+      "The team is expanding sensor deployments to improve seasonal forecasting accuracy."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "New satellite network expands emergency internet access",
+    "category": "world",
+    "description": "Disaster response teams in remote regions gain faster communication during critical hours.",
+    "image": "https://picsum.photos/600/400?random=24",
+    "date": "March 2, 2026",
+    "author": "Ibrahim Saleh",
+    "content": [
+      "Emergency agencies in multiple regions have begun using a new low-orbit satellite service for rapid network recovery.",
+      "Field teams report improved coordination, especially during the first 24 hours after storms and earthquakes.",
+      "Officials say affordability and battery efficiency will determine long-term rollout pace."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Startups bet on local AI models to cut cloud costs",
+    "category": "technology",
+    "description": "Edge-first architectures are gaining traction as founders seek predictable infrastructure spending.",
+    "image": "https://picsum.photos/600/400?random=25",
+    "date": "March 1, 2026",
+    "author": "Noah Reed",
+    "content": [
+      "Early-stage companies are shifting some AI inference to local hardware to control monthly cloud bills.",
+      "Teams say smaller domain-tuned models often outperform larger general systems for repetitive internal tasks.",
+      "Investors are rewarding products that show measurable efficiency gains instead of model size alone."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Healthcare AI tools face stricter auditing rules in new policy",
+    "category": "world",
+    "description": "Regulators introduce transparency standards for clinical recommendations and model updates.",
+    "image": "https://picsum.photos/600/400?random=26",
+    "date": "February 28, 2026",
+    "author": "Clara Mendes",
+    "content": [
+      "New policy guidance requires medical AI vendors to document validation steps and post-release monitoring.",
+      "Hospitals must maintain human-review checkpoints for high-risk recommendations.",
+      "Compliance experts say the framework could become a template for other safety-critical industries."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Quantum startup unveils compact processor for lab deployment",
+    "category": "science",
+    "description": "The company claims improved stability and faster setup for universities and biotech teams.",
+    "image": "https://picsum.photos/600/400?random=27",
+    "date": "February 27, 2026",
+    "author": "Yuki Tanaka",
+    "content": [
+      "A new compact quantum system aims to reduce setup complexity for research environments.",
+      "Developers say packaging and calibration improvements allow faster experimentation cycles.",
+      "Independent benchmarking is expected later this year to validate the performance claims."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Streaming giants push into live global news programming",
+    "category": "business",
+    "description": "Platform competition expands beyond entertainment as audiences demand real-time updates.",
+    "image": "https://picsum.photos/600/400?random=28",
+    "date": "February 26, 2026",
+    "author": "Eva Collins",
+    "content": [
+      "Major streaming companies are expanding live news partnerships in an effort to raise daily engagement.",
+      "Executives say integrated coverage can keep users inside the same app for both breaking stories and analysis.",
+      "Media analysts expect fierce competition around regional licensing and exclusive event rights."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Breakthrough battery chemistry could double drone range",
+    "category": "science",
+    "description": "Engineers say a new material blend improves energy density without major weight tradeoffs.",
+    "image": "https://picsum.photos/600/400?random=29",
+    "date": "February 25, 2026",
+    "author": "Nina Alvarez",
+    "content": [
+      "Researchers have demonstrated a battery prototype that significantly extends autonomous flight time.",
+      "The design targets logistics, inspection, and emergency response use cases where endurance is critical.",
+      "Commercial integration will depend on manufacturing reliability and safety certification timelines."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "City museums use immersive storytelling to attract younger audiences",
+    "category": "culture",
+    "description": "Interactive exhibits and audio-led experiences are helping institutions modernize attendance.",
+    "image": "https://picsum.photos/600/400?random=30",
+    "date": "February 24, 2026",
+    "author": "Samira Holt",
+    "content": [
+      "Museums are blending projection mapping, spatial audio, and mobile companions to reframe classic collections.",
+      "Curators say the strategy increases session length and social sharing without replacing scholarship.",
+      "Ticket data suggests younger visitors are returning more frequently when exhibits include participatory design."
+    ]
+  }
+]

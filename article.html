@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read full DailyWire articles covering technology, world, business, culture, and science."
+    />
+    <meta property="og:title" content="DailyWire Article" />
+    <meta
+      property="og:description"
+      content="Read full DailyWire articles covering technology, world, business, culture, and science."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://picsum.photos/1400/700?random=41" />
+    <meta property="og:url" content="./article.html" />
+    <title>DailyWire | Article</title>
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo" aria-label="DailyWire homepage">DailyWire</a>
+
+        <nav class="main-nav" id="mainNav" aria-label="Primary navigation" aria-hidden="true">
+          <a href="#" data-category="home">Home</a>
+          <a href="#" data-category="world">World</a>
+          <a href="#" data-category="technology">Technology</a>
+          <a href="#" data-category="business">Business</a>
+          <a href="#" data-category="culture">Culture</a>
+          <a href="#" data-category="science">Science</a>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="icon-btn"
+            id="searchToggle"
+            aria-label="Toggle search"
+            aria-controls="searchRow"
+            aria-expanded="false"
+            type="button"
+          >
+            &#128269;
+          </button>
+          <button
+            class="icon-btn"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+            type="button"
+          >
+            &#9680;
+          </button>
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+            aria-haspopup="true"
+            type="button"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="container search-row" id="searchRow">
+        <input
+          type="text"
+          id="searchInput"
+          aria-label="Search articles"
+          placeholder="Search stories, topics, authors..."
+        />
+      </div>
+    </header>
+
+    <main class="article-main container">
+      <article class="article-content" id="articleContent">
+        <p class="tag" id="articleCategory">Technology</p>
+        <h1 id="articleTitle">Loading article...</h1>
+        <div class="meta">
+          <span id="articleAuthor">By DailyWire Staff</span>
+          <span id="articleDate">-</span>
+          <span id="articleReadingTime">1 min read</span>
+        </div>
+        <img
+          id="articleImage"
+          src="https://picsum.photos/1400/700?random=41"
+          alt="Article feature image"
+          class="article-image"
+          loading="lazy"
+          decoding="async"
+        />
+        <div id="articleBody" aria-live="polite"></div>
+
+        <a href="index.html" class="btn back-btn" aria-label="Back to homepage">Back to Homepage</a>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p class="copyright">&copy; 2026 DailyWire. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
